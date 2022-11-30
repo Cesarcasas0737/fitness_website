@@ -8,20 +8,21 @@ header{
     background: #9a9d9a;
     border-bottom: 1px solid #ddd;
     box-shadow: 0 0 8px rgba(0,0,0,.1);
-    
+    justify-content: space-between;
 }
 .header-contain{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-header > div > div>li{
-    background-color: red;
+header > div>div{
+   
   }
 .links{
     display: flex;
     flex-direction: row;
     gap: 40px;
+    align-self: flex-end;
 }
 
 .logo{
