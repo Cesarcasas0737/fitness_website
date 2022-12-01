@@ -1,45 +1,73 @@
 body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: lightgrey;
+
 }
+
 .banner-wrap{
     background: no-repeat center/100%
     url("/home/cesar/repos/fitness_website/images/gym-background.jpg");
+    background-attachment: fixed;
 }
 header{
     display: flex;
     flex-direction: row; 
     justify-content: space-between;
 }
-.header-contain{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.logo{
+    color: var(--light);
+    font-size: 22px;
+    font-weight: 900;
+    font-style: italic;
+    padding: 20px;
+    align-self:flex-start;
 }
-header > div>div{
-   
-  }
 .links{
     display: flex;
     flex-direction: row;
     gap: 40px;
     align-self: flex-end;
+    padding: 20px;
+}
+.header-contain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.logo{
-    color: #ffffff;
-    font-size: 42px;
-    font-weight: 900;
-    font-style: italic;
-    padding-right: 16px;
-    align-self:flex-start ;
+.info-wrap{
+    display: flex;
+    justify-content: center;
+    color: var(--light);
 }
+.info-wrap-child{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-section{
+    background-color: #fafafa;
+    color: var(--dark);
+    display: flex;
+    justify-content: center;
+}
+
 footer{
     text-align: center;
+    background-color: darkgrey;
+}
+
+p{
+    color: var(--light)
 }
 ul{
     list-style-type: none;
 }
 a{
-    color: white;
+    color: var(--light);
     text-decoration: none;
+}
+:root{
+    --dark: black;
+    --light: white; 
 }
