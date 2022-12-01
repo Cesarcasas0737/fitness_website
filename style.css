@@ -1,13 +1,13 @@
 body{
-
+    background-color: lightgrey;
 }
-
+.banner-wrap{
+    background: no-repeat center/100%
+    url("/home/cesar/repos/fitness_website/images/gym-background.jpg");
+}
 header{
     display: flex;
-    flex-direction: row;
-    background: #9a9d9a;
-    border-bottom: 1px solid #ddd;
-    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    flex-direction: row; 
     justify-content: space-between;
 }
 .header-contain{
@@ -33,7 +33,9 @@ header > div>div{
     padding-right: 16px;
     align-self:flex-start ;
 }
-
+footer{
+    text-align: center;
+}
 ul{
     list-style-type: none;
 }
